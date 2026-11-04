@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Tarefas - Gerenciador</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body class ="bg-light">
+
+    <nav class = "navbar navbar-dark bg-dark mb-4">
+        <div class = "container d-flex justify-content-between">
+            <span class = "navbar-brand mb-9 h1">Gerenciador de Tarefas</span>
+
+            <button onclick="logout()" class = "btn btn-outline-danger btn-sm">Sair / Logout</button>
+        </div>
+    </nav>
+
+    <div class = "container">
+        <div class ="row-justify-content-center">
+            <div class="col-md-8"></div>
+
+            <div class="card shadow-sm">
+                <div class="card-header bg-white">
+                    <h4 class="mb-0">Suas tarefas</h4>
+                </div>
+
+                <div class="card-body">
+
+                    <div id="loading" class="text-center my-3" style="display: none;">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Carregando...</span>"
+
+                        </div>"
+                    </div>"
+                  
+                    <ul id="task-list" class="list-group">
+
+                    </ul>"
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="scripts/script.js"></script>
+    
+</body>
+</html>
